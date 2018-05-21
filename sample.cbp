@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sample" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/sample" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/sample" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/Harri Hoang Tran/Documents/SFML-2.4.2/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/Harri Hoang Tran/Documents/SFML-2.4.2/lib" />
+		</Linker>
+		<Unit filename=".gitattributes" />
+		<Unit filename=".gitignore" />
+		<Unit filename="CMakeLists.txt" />
+		<Unit filename="LICENSE.txt" />
+		<Unit filename="README.md" />
+		<Unit filename="data/arcade levellist.cfg" />
+		<Unit filename="data/config.cfg" />
+		<Unit filename="data/fonts/DejaVu Fonts License.txt" />
+		<Unit filename="data/fonts/DejaVuSans-Bold.ttf" />
+		<Unit filename="data/fonts/DejaVuSans.ttf" />
+		<Unit filename="data/fonts/visitor.txt" />
+		<Unit filename="data/fonts/visitor1.ttf" />
+		<Unit filename="data/fonts/visitor2.ttf" />
+		<Unit filename="data/images/icon.png" />
+		<Unit filename="data/images/kroniax.png" />
+		<Unit filename="data/levels/custom/Level1.cfg" />
+		<Unit filename="data/levels/custom/Level2.cfg" />
+		<Unit filename="data/levels/custom/Level3.cfg" />
+		<Unit filename="data/levels/custom/Level4.cfg" />
+		<Unit filename="data/levels/custom/Level5.cfg" />
+		<Unit filename="data/levels/custom/Level6.cfg" />
+		<Unit filename="data/levels/custom/Level7.cfg" />
+		<Unit filename="data/levels/custom/Level8.cfg" />
+		<Unit filename="data/levels/custom/Level9.cfg" />
+		<Unit filename="data/levels/official/Level1.cfg" />
+		<Unit filename="data/levels/official/Level2.cfg" />
+		<Unit filename="data/levels/official/Level3.cfg" />
+		<Unit filename="data/levels/official/Level4.cfg" />
+		<Unit filename="data/levels/official/Level5.cfg" />
+		<Unit filename="data/levels/official/Level6.cfg" />
+		<Unit filename="data/levels/official/Level7.cfg" />
+		<Unit filename="data/levels/official/Level8.cfg" />
+		<Unit filename="data/levels/official/Level9.cfg" />
+		<Unit filename="data/levels/old levels/Level1_old.cfg" />
+		<Unit filename="data/levels/old levels/Level2_old.cfg" />
+		<Unit filename="data/music/Galaxy - New Electro House Techno by MafiaFLairBeatz.ogg" />
+		<Unit filename="data/music/Infinity - Techno Trance Project 2011 by MafiaFLairBeatz.ogg" />
+		<Unit filename="data/music/MachinimaSound.com_-_After_Dark.ogg" />
+		<Unit filename="data/music/MachinimaSound.com_-_Queen_of_the_Night.ogg" />
+		<Unit filename="data/music/Power Fight - Electro Techno Beat.ogg" />
+		<Unit filename="data/music/Return of the Electro by MafiaFLairBeatz.ogg" />
+		<Unit filename="include/application.cpp" />
+		<Unit filename="include/application.hpp" />
+		<Unit filename="include/gui/guiBaseClass.cpp" />
+		<Unit filename="include/gui/guiBaseClass.hpp" />
+		<Unit filename="include/gui/guiController.cpp" />
+		<Unit filename="include/gui/guiController.hpp" />
+		<Unit filename="include/gui/guiLayer.cpp" />
+		<Unit filename="include/gui/guiLayer.hpp" />
+		<Unit filename="include/main.cpp" />
+		<Unit filename="include/messageBus/messageBus.cpp" />
+		<Unit filename="include/messageBus/messageBus.hpp" />
+		<Unit filename="include/messageBus/receiver.hpp" />
+		<Unit filename="include/modules/game/camera.cpp" />
+		<Unit filename="include/modules/game/camera.hpp" />
+		<Unit filename="include/modules/game/collisionCollum.cpp" />
+		<Unit filename="include/modules/game/collisionCollum.hpp" />
+		<Unit filename="include/modules/game/collisionSystem.cpp" />
+		<Unit filename="include/modules/game/collisionSystem.hpp" />
+		<Unit filename="include/modules/game/countdown.cpp" />
+		<Unit filename="include/modules/game/countdown.hpp" />
+		<Unit filename="include/modules/game/gameTimer.cpp" />
+		<Unit filename="include/modules/game/gameTimer.hpp" />
+		<Unit filename="include/modules/game/mapCollum.cpp" />
+		<Unit filename="include/modules/game/mapCollum.hpp" />
+		<Unit filename="include/modules/game/mapRenderer.cpp" />
+		<Unit filename="include/modules/game/mapRenderer.hpp" />
+		<Unit filename="include/modules/game/player.cpp" />
+		<Unit filename="include/modules/game/player.hpp" />
+		<Unit filename="include/modules/game/playerHUD.cpp" />
+		<Unit filename="include/modules/game/playerHUD.hpp" />
+		<Unit filename="include/modules/game/scriptAction.cpp" />
+		<Unit filename="include/modules/game/scriptAction.hpp" />
+		<Unit filename="include/modules/game/scriptManager.cpp" />
+		<Unit filename="include/modules/game/scriptManager.hpp" />
+		<Unit filename="include/modules/game/timeTable.cpp" />
+		<Unit filename="include/modules/game/timeTable.hpp" />
+		<Unit filename="include/modules/settings.cpp" />
+		<Unit filename="include/modules/settings.hpp" />
+		<Unit filename="include/modules/stateMachine.cpp" />
+		<Unit filename="include/modules/stateMachine.hpp" />
+		<Unit filename="include/modules/states/game.cpp" />
+		<Unit filename="include/modules/states/game.hpp" />
+		<Unit filename="include/modules/states/intro.cpp" />
+		<Unit filename="include/modules/states/intro.hpp" />
+		<Unit filename="include/modules/states/menu.cpp" />
+		<Unit filename="include/modules/states/menu.hpp" />
+		<Unit filename="include/modules/states/state.cpp" />
+		<Unit filename="include/modules/states/state.hpp" />
+		<Unit filename="include/modules/windowHandler.cpp" />
+		<Unit filename="include/modules/windowHandler.hpp" />
+		<Unit filename="include/utilities/anyType.hpp" />
+		<Unit filename="include/utilities/hash.cpp" />
+		<Unit filename="include/utilities/hash.hpp" />
+		<Unit filename="openal32.dll" />
+		<Unit filename="sample.layout" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Unit filename="tools/kroniax-launcher.sh" />
+		<Unit filename="tools/make-linux-release.sh" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

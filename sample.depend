@@ -1,0 +1,668 @@
+# depslib dependency file v1.0
+1526910629 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\application.cpp
+	"application.hpp"
+	"messageBus/receiver.hpp"
+	"modules/states/state.hpp"
+	"modules/states/intro.hpp"
+	"modules/states/menu.hpp"
+	"modules/states/game.hpp"
+
+1526910429 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\application.hpp
+	"messageBus/messageBus.hpp"
+	"modules/settings.hpp"
+	"modules/windowHandler.hpp"
+	"modules/stateMachine.hpp"
+	<SFML/System/Clock.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\messagebus\messagebus.hpp
+	<vector>
+
+1526889031 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\settings.hpp
+	"../messageBus/receiver.hpp"
+	<string>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\messagebus\receiver.hpp
+	<vector>
+	<memory>
+	"../utilities/anyType.hpp"
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\utilities\anytype.hpp
+
+1526889049 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\windowhandler.hpp
+	"../messageBus/receiver.hpp"
+	<SFML/Graphics/RenderWindow.hpp>
+
+1486736455 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1486736397 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1486736455 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\vector2.inl
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\rect.inl
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1486736397 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\primitivetype.hpp
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1486736455 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\contextsettings.hpp
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\windowstyle.hpp
+
+1486736455 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\utf.inl
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\string.inl
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\networkhandler.hpp
+	"../messageBus/receiver.hpp"
+	<SFML/Network/TcpSocket.hpp>
+	<string>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\network\tcpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/System/Time.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\network\export.hpp
+	<SFML/Config.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\network\socket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/SocketHandle.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<vector>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\network\sockethandle.hpp
+	<SFML/Config.hpp>
+	<basetsd.h>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\chathandler.hpp
+	"../sfchat/sfchat.h"
+	"../messageBus/receiver.hpp"
+	<array>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\sfchat\sfchat.h
+	<memory>
+	<iostream>
+	<string>
+	<deque>
+	<list>
+	<time.h>
+	<fstream>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/Network/TcpListener.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Clock.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\network\tcplistener.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/Network/IpAddress.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\network\ipaddress.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+	<istream>
+	<ostream>
+	<string>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\vector3.inl
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\thread.inl
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\statemachine.hpp
+	<map>
+	<memory>
+	"states/state.hpp"
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\states\state.hpp
+	<string>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\states\intro.hpp
+	"state.hpp"
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Sprite.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1526888939 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\states\menu.hpp
+	"state.hpp"
+	"../../gui/guiController.hpp"
+	"../game/mapRenderer.hpp"
+	"../../messageBus/receiver.hpp"
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Audio/Music.hpp>
+	<vector>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\gui\guicontroller.hpp
+	<string>
+	<vector>
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Font.hpp>
+	"../../include/gui/guiLayer.hpp"
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\gui\guilayer.hpp
+	<vector>
+	<string>
+	<SFML/System/Vector2.hpp>
+	"../../include/gui/guiBaseClass.hpp"
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\gui\guibaseclass.hpp
+	<string>
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Vertex.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\maprenderer.hpp
+	<string>
+	<vector>
+	"mapCollum.hpp"
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\mapcollum.hpp
+	<SFML/Graphics/VertexArray.hpp>
+
+1486736455 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1486736397 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1486736455 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1486736397 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1486736397 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1486736455 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+
+1526888939 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\states\game.hpp
+	"state.hpp"
+	"../../messageBus/receiver.hpp"
+	"../../gui/guiController.hpp"
+	"../game/mapRenderer.hpp"
+	"../game/player.hpp"
+	"../game/camera.hpp"
+	"../game/collisionSystem.hpp"
+	"../game/scriptManager.hpp"
+	"../game/timeTable.hpp"
+	"../game/gameTimer.hpp"
+	"../game/countdown.hpp"
+	"../game/playerHUD.hpp"
+	<SFML/System/Clock.hpp>
+	<SFML/Audio/Music.hpp>
+	<vector>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\player.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Color.hpp>
+	<array>
+	<string>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\camera.hpp
+	<SFML/Graphics/View.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\collisionsystem.hpp
+	"collisionCollum.hpp"
+	<string>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\collisioncollum.hpp
+	<vector>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\scriptmanager.hpp
+	<vector>
+	<list>
+	<memory>
+	"scriptAction.hpp"
+	"player.hpp"
+	"camera.hpp"
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\scriptaction.hpp
+	<SFML/System/Time.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\timetable.hpp
+	<string>
+	<vector>
+	<SFML/Graphics/Font.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\gametimer.hpp
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\countdown.hpp
+	<string>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\playerhud.hpp
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\gui\guibaseclass.cpp
+	"../../include/gui/guiBaseClass.hpp"
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Keyboard.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\gui\guicontroller.cpp
+	"../../include/gui/guiController.hpp"
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Window/Event.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\gui\guilayer.cpp
+	"../../include/gui/guiLayer.hpp"
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Keyboard.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\main.cpp
+	"application.hpp"
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\messagebus\messagebus.cpp
+	"messageBus.hpp"
+	"receiver.hpp"
+	<assert.h>
+
+1526307902 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\chathandler.cpp
+	"chatHandler.hpp"
+	<SFML/Graphics/RenderTarget.hpp>
+	"../utilities/hash.hpp"
+	"../messageBus/messageBus.hpp"
+
+1470784538 c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\utilities\hash.hpp
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\camera.cpp
+	"camera.hpp"
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\collisioncollum.cpp
+	"collisionCollum.hpp"
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\collisionsystem.cpp
+	"collisionSystem.hpp"
+	<fstream>
+	<string>
+	<sstream>
+	"player.hpp"
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\countdown.cpp
+	"countdown.hpp"
+	<sstream>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\gametimer.cpp
+	"gameTimer.hpp"
+	<sstream>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\mapcollum.cpp
+	"mapCollum.hpp"
+	<SFML/Graphics/RenderWindow.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\maprenderer.cpp
+	"mapRenderer.hpp"
+	<fstream>
+	<sstream>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\player.cpp
+	"player.hpp"
+	<SFML/System/Time.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<cmath>
+	<fstream>
+	<sstream>
+	<assert.h>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\playerhud.cpp
+	"playerHUD.hpp"
+	"player.hpp"
+	<cmath>
+	<sstream>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\scriptaction.cpp
+	"scriptAction.hpp"
+	"player.hpp"
+	"camera.hpp"
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\scriptmanager.cpp
+	"scriptManager.hpp"
+	<fstream>
+	<sstream>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\game\timetable.cpp
+	"timeTable.hpp"
+	<sstream>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\networkhandler.cpp
+	"networkHandler.hpp"
+	"../messageBus/messageBus.hpp"
+	"../utilities/hash.hpp"
+	<SFML/System/Vector2.hpp>
+	<SFML/Network/Packet.hpp>
+	<SFML/Network/IpAddress.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\network\packet.hpp
+	<SFML/Network/Export.hpp>
+	<string>
+	<vector>
+
+1526911394 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\settings.cpp
+	"settings.hpp"
+	<fstream>
+	<sstream>
+	"../utilities/hash.hpp"
+	"../messageBus/messageBus.hpp"
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\statemachine.cpp
+	"stateMachine.hpp"
+	"states/state.hpp"
+	<assert.h>
+
+1526915212 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\states\game.cpp
+	"game.hpp"
+	<fstream>
+	<sstream>
+	<random>
+	<iostream>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Window/Event.hpp>
+	"../../messageBus/messageBus.hpp"
+	"../../utilities/hash.hpp"
+	"../../modules/chatHandler.hpp"
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\states\intro.cpp
+	"intro.hpp"
+	<SFML/System/Time.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1526916011 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\states\menu.cpp
+	"menu.hpp"
+	"../../messageBus/messageBus.hpp"
+	"../../utilities/hash.hpp"
+	<fstream>
+	<sstream>
+	<algorithm>
+	<random>
+	<SFML/Window/Event.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\states\state.cpp
+	"state.hpp"
+	"../stateMachine.hpp"
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\modules\windowhandler.cpp
+	"windowHandler.hpp"
+	"../messageBus/messageBus.hpp"
+	"../utilities/hash.hpp"
+	<SFML/Window/Event.hpp>
+	<sstream>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\sfchat\sfchat.cpp
+	"sfchat.h"
+	<SFML/Network/Packet.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/Network/SocketSelector.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1486736398 c:\users\harri hoang tran\documents\sfml-2.4.2\include\sfml\network\socketselector.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1470784538 source:c:\users\harri hoang tran\documents\game projects\sfmlsamplegame\include\utilities\hash.cpp
+	"hash.hpp"
+
